@@ -22,7 +22,7 @@ const CustomDropdown = ({ items, onChange }) => {
             <p>{selectedOption.name}</p>
           </>
         ) : (
-          <p>Select an option</p>
+          <p>Select a country</p>
         )}
 
         <img width="15" height="15" src="icons/arrow-down.svg" />
