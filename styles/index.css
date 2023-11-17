@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.dropdown {
+  background-color: white;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+}
+
+.dropdown .option {
+  background-color: red;
+}
+
+.option {
+  font-size: 2rem;
+}
+
+.text {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h1.title {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+h1.title span {
+  color: aquamarine;
+}
